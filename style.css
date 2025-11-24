@@ -1,0 +1,64 @@
+.flex1
+{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	padding: 40px 0;
+	align-items: center;
+}
+
+.field
+{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px 0;
+}
+
+.column
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 5px;
+	border: 2px solid black;
+	padding: 5px;
+	background-color: red;
+}
+
+.box
+{
+	margin: 5px 0;
+	border: 2px solid black;
+	padding: 5px;
+	background-color: yellow;
+}
+
+img
+{
+	display: block;
+}
+
+.name
+{
+	margin: 0 0 10px;
+	font-size: 24px;
+}
+
+.text
+{
+	margin: 5px 0;
+	font-size: 20px;
+	font-style: italic;
+}
+
+button
+{
+	font-size: 24px;
+	padding: 12px 24px;
+	background-color: #0f0;
+	border-radius: 6px;
+	border: 0;
+}
